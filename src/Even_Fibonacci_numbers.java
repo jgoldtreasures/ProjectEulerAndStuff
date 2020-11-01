@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Even_Fibonacci_numbers {
 
-    public static List<Integer> fib(int numTerms){
+    public static List<Integer> fib(){
         List<Integer> terms = new ArrayList<>();
         terms.add(0, 1);
         terms.add(1, 1);
@@ -25,6 +25,6 @@ public class Even_Fibonacci_numbers {
     }
 
     public static void main(String args[]){
-        System.out.println(sum(fib(1000)));
+        System.out.println(sum(fib()));
     }
 }
